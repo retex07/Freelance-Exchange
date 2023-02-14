@@ -1,0 +1,120 @@
+@import '/src/styles/variables.scss';
+
+.button {
+  min-width: 82px;
+
+  color: $color__white;
+  font-weight: 600;
+
+  border: none;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.button-blue {
+  background-color: $color__tusur;
+
+  border-color: $color__tusur;
+
+  &:hover {
+    color: $color__tusur;
+
+    background-color: transparent;
+  }
+}
+.button-green {
+  background-color: $color__green;
+
+  border-color: $color__green;
+
+  &:hover {
+    color: $color__green;
+
+    background-color: transparent;
+  }
+}
+.button-white {
+  color: $color__tusur;
+
+  border-color: $color__tusur;
+  background-color: $color__white;
+
+  &:hover {
+    color: $color__white;
+
+    background-color: $color__tusur;
+  }
+}
+.button-red {
+  color: $color__white;
+
+  border-color: $color__red;
+  background-color: $color__red;
+
+  &:hover {
+    color: $color__red;
+
+    background-color: transparent;
+  }
+}
+.button-clear {
+  color: $color__text;
+
+  border-color: $color__tusur;
+  background-color: transparent;
+
+  &:hover {
+    color: $color__tusur;
+
+    background-color: transparent;
+  }
+}
+
+.button-middle {
+  @media screen and (min-width: 740px) {
+    padding: 15px 25px;
+
+    font-size: 18px;
+    font-weight: 600;
+  }
+  @media screen and (max-width: 740px) {
+    padding: 12px 20px;
+
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  border-radius: 22px;
+  border-width: 2px;
+  border-style: solid;
+}
+.button-big {
+  @media screen and (min-width: 740px) {
+    padding: 30px 35px;
+
+    font-size: 20px;
+    font-weight: 600;
+    border-width: 4px;
+  }
+  @media screen and (max-width: 740px) {
+    padding: 16px 18px;
+
+    font-size: 15px;
+    font-weight: 600;
+    border-width: 2px;
+  }
+
+  border-radius: 34px;
+  border-style: solid;
+}
+
+.button:disabled {
+  color: $color__white__disabled;
+
+  border: none;
+  background: $color__white3;
+}
+
+.button-full {
+  width: 100%;
+}

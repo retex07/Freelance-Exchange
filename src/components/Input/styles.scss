@@ -1,0 +1,32 @@
+.input-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.input {
+  padding: 10px 15px;
+
+  background-color: transparent;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.input::placeholder {
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+.input:hover::placeholder {
+  opacity: 1;
+}
+
+.input:focus::placeholder {
+  opacity: 1;
+}

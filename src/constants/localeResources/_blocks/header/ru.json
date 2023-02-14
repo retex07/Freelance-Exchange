@@ -1,0 +1,12 @@
+{
+  "mainLink": "ГЛАВНАЯ",
+  "adsLink": "ОБЪЯВЛЕНИЯ",
+  "navigation": "Навигация",
+  "enterButton": "ВОЙТИ",
+
+  "dropdown":{
+    "profile": "Профиль",
+    "ads": "Мои объявления",
+    "exit": "Выход"
+  }
+}
